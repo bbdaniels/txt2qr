@@ -14,10 +14,9 @@ Help for {hi:txt2qr}
 
 {title:Instructions}
 
-{p}{cmd:txt2qr} saves a QR code containing {it:text} to the location specified in {help using}. The file extension .png is recommended. Spaces and special characters are not currently supported in {it:text}. Internet connection is required.
+{p}{cmd:txt2qr} saves a QR code containing {it:text} to the location specified in {help using}. The file extension .png is recommended. Special characters are not currently supported in {it:text}. Internet connection is required.
 
 {title:Author}
 
 Benjamin Daniels
 bbdaniels@gmail.com
-

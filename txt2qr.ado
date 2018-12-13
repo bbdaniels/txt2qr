@@ -7,6 +7,8 @@ version 9.0
 
 syntax anything using/ , [save] [replace]
 
+local anything = subinstr("`anything'"," ","%20",.)
+
 copy `"http://chart.apis.google.com/chart?cht=qr&chs=400x400&chl=`anything'&chld=H|0"' `using' , `s' `replace'
 
 end
