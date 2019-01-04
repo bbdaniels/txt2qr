@@ -1,4 +1,6 @@
-** Makes QR codes containing text.
+//! version 1.3 31DEC2018  DIME Analytics bbdaniels@gmail.com
+
+// txt2qr - Stata module to produce QR codes containing plain text.
 
 cap prog drop txt2qr
 prog def txt2qr
